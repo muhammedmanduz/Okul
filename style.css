@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+
+}
+
+.header{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.header-logo{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.header-links{
+    display:flex;
+    align-items: center;
+    gap:10px
+}
+.header-links li {
+    list-style: ;
+
+}
+
+.header-links li a {
+
+
+}
+
+.containe{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px 5px;
+
+}
+
+.box{
+    background-color: blanchedalmond;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    height: 100px;
+
+
+}
+.box-2 {
+    background-color: red;
+    position:fixed;
+    top: 0;
+    /* margin:0;*/
+ 
+    
+    /* z-index:-1; 
+    z index default varsayılan olarak 0 dır z indec elemanla arasında hiyerarşik yanı kimin  patron olduğunu belirler
+     z-indei buyuk olan değer daha yukarıda olur.. z-index position:fixed verilen elamanda daha buyuk derger alır.Bu varsayılan olarak 
+     gercekleşir
+     
+       */
+}
+
+.box-3 {
+    background-color: green;
+    position: static;
+    /* positoın :static elamanların default varsayılan olarak */
+}
